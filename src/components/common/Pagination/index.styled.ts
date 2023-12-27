@@ -32,7 +32,7 @@ export const Item = styled.div`
   font-weight: 500; 
   font-size: ${props => props.theme.textSizeTextM};
   height: 100%;
-  border-radius: 5px;
+  border-radius: 50%;
   padding: 0px 10px;
   box-shadow: 0px 0px 3px ${props => props.theme.shadowColor};
   box-sizing: border-box;

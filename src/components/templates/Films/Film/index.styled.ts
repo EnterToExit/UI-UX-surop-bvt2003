@@ -15,7 +15,7 @@ export const Card2 = styled.div`
     pointer-events: none;
     transition: 1s;
     padding: 20px;
-    color: white; 
+    color: white;
 `;
 
 export const Rating = styled.div`
@@ -34,7 +34,7 @@ export const RatingIcon = styled.div`
     align-items: center;
     justify-content: center;
     margin: 10px;
-    color:  yellow;
+    color:  white;
     white-space: pre-wrap;
     font-size: ${props=> props.theme.textSizeTitle};
     @media (max-width: 180px) {
@@ -47,7 +47,7 @@ export const RatingText = styled.div`
     width: 100%;
     align-items: center;
     justify-content: center;
-    color:  yellow;
+    color:  white;
     font-size: ${props=> props.theme.textSizeL};
 `;
 
@@ -72,9 +72,10 @@ export const GenresText = styled.div`
 
 export const Details = styled.button`
     cursor: pointer;
-    border: solid;
+    border: solid transparent 8px;
+    box-sizing: border-box;
     width: 100%;
-    margin: 0px 0px;
+    border-radius: 0px 0px 16px 16px;
     height: 40px;
     flex: 0 0 auto;
     background-color:  ${props => props.theme.accentColor1};
@@ -93,7 +94,7 @@ export const Film = styled.div`
     background-color: ${props => props.theme.iconColor};
     width: 100%;
     box-shadow: 0px 0px 5px ${props => props.theme.shadowColor};
-    border-radius:0px;
+    border-radius:16px;
     overflow: hidden;
     transition: all 0.3s ease;
     &:hover{
