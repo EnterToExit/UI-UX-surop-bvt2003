@@ -11,7 +11,8 @@ const Header: React.FC<HeaderProps> = (props) => {
     <Style.Header id="header">
       <Style.Content>
         <Style.Logo>
-          <Style.Img src="https://cdn.discordapp.com/attachments/609740555160911923/1186060200029990963/Group_1.png?ex=6591dfa3&is=657f6aa3&hm=f5372e9c697995000c5579eb16c95eba4e8385b2a175bf5d72da3232fe8fbbad&"></Style.Img>
+          <Style.Img src=
+          "https://cdn.discordapp.com/attachments/451111074922627088/1189626822573445180/image.png?ex=659ed950&is=658c6450&hm=e738792b8904a8d93b35ec7e45a753db87618be29b30342f1dfcbc5935def863&"></Style.Img>
         </Style.Logo>
 
         <Style.Buttons>
